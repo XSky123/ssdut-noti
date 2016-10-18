@@ -1,0 +1,25 @@
+列表结构
+
+main_list[
+    typelist{
+        "type_title":,
+        "type_list_page_url":,
+        "list":[
+            line{
+                "title":,
+                "date":,
+                "url":
+            },
+            line{
+                "title":,
+                "date":,
+                "url":
+            }            
+        ]
+    },
+]
+
+dealing order:
+#1 read Typelist 
+#2 access list url 
+#3 get url
